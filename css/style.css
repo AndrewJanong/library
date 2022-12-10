@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Josefin+Sans&family=Raleway&family=Russo+One&display=swap');
+
+body {
+  padding: 48px 10vw 12px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header p {
+  font-size: 5rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Form Section */
+
+.add-book {
+	margin-top: 20px;
+}
+
+.add-book button {
+	background-color: #8cd3ff;
+	margin-bottom: 48px;
+	border: 1px;
+	border-radius: 5px;
+	width: 200px;
+	height: 48px;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.3rem;
+	color: white;
+	
+} 
+
+.add-book button:hover {
+	background-color: #59bfff;
+}
+
+.book-info {
+	display: flex;
+}
+
+.book-info div {
+	display: flex;
+	flex-direction: column;
+	margin-right: 40px;
+}
+
+label {
+	font-size: 1.3rem;
+}
+
+input[type=text], select {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.1rem;
+	width: 400px;
+	height: 30px;
+	margin: 12px 0 20px;
+	border-radius: 5px;
+}
+
+/* Library */
+
+.library {
+	
+}
+
+table {
+	width: 100%;
+}
+
+th, td {
+	padding: 12px;
+	text-align: left;
+	border: 1px solid black;
+}
+
+tbody button.read {
+	background-color: #8cd3ff;
+	border: 1px;
+	border-radius: 5px;
+	width: 200px;
+	height: 48px;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.3rem;
+	color: white;
+}
+
+tbody button.remove {
+	background-color:#ff0000;
+	border: 1px;
+	border-radius: 5px;
+	width: 200px;
+	height: 48px;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.3rem;
+	color: white;
+}
+
+tbody button.read:hover {
+	background-color: #59bfff;
+}
+
+tbody button.remove:hover {
+	background-color: #e60000;
+}
+

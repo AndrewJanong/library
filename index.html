@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <p>Book Library</p>
+  </header>
+
+  <div class="add-book">
+    <form action="">
+      <div class="book-info">
+        <div class="book-title">
+          <label for="book-title">Title</label>
+          <input type="text" id="book-title" name="book-title">
+        </div>
+        <div class="book-author">
+          <label for="book-author">Author</label>
+          <input type="text" id="book-author" name="book-author">
+        </div>
+        <div class="book-status">
+          <label for="book-status">Status</label>
+          <select name="book-status" id="book-status">
+            <option value="read">Read</option>
+            <option value="not-read">Not Read</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit">Add Book</button>
+    </form>
+  </div>
+
+  <div class="library">
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Status</th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
