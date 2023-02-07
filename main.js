@@ -1,17 +1,25 @@
 let myLibrary = [];
 
+/*
 function Book(title, author, read) {
     this.title = title;
     this.author = author;
-    // this.pages = pages;
     this.read = read;
-    /*
-    this.info = function() {
-        return read 
-        ? `${title} by ${author}, ${pages} pages, not read yet`
-        : `${title} by ${author}, ${pages} pages, read`;
+}
+*/
+
+/*
+const Book = (title, author, read) => {
+    return {title, author, read};
+}
+*/
+
+class Book {
+    constructor(title, author, read) {
+        this.title = title;
+        this.author = author;
+        this.read = read;
     }
-    */
 }
 
 const tableBody = document.querySelector('tbody');
